@@ -29,7 +29,7 @@ def gen_card():
 
 
 def understood():
-    """Removes card from the deck and denerates new card"""
+    """Removes card from the deck and generates new card"""
     global ES_WORDS_DF
     test_df = ES_WORDS_DF.drop(CURRENT_IDX)
     ES_WORDS_DF = test_df
